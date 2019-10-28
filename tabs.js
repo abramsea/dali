@@ -143,3 +143,86 @@
         btn1.className = "nav_item";
         }
     }
+
+    btn7.onclick = function showTab() {
+        var a = document.getElementById('tab7');
+        var b = document.getElementById('tab8');
+        var c = document.getElementById('tab9');
+        var d = document.getElementById('tab10');
+    
+
+        if (a.className === "block b07") {
+        a.className += " active"
+        b.className = "block b08"
+        c.className = "block b09"
+        d.className = "block b12"
+
+        btn7.className += " selected";
+        btn8.className = "nav_item";
+        btn9.className = "nav_item";
+        btn10.className = "nav_item";
+        }
+    }
+
+
+    btn8.onclick = function showTab() {
+        var a = document.getElementById('tab7');
+        var b = document.getElementById('tab8');
+        var c = document.getElementById('tab9');
+        var d = document.getElementById('tab10');
+    
+
+        if (b.className === "block b08") {
+        a.className = "block b07"
+        b.className += " active"
+        c.className = "block b09"
+        d.className = "block b12"
+
+        btn7.className = "nav_item";
+        btn8.className += " selected";
+        btn9.className = "nav_item";
+        btn10.className = "nav_item";
+        }
+    }
+
+
+    btn9.onclick = function showTab() {
+        var a = document.getElementById('tab7');
+        var b = document.getElementById('tab8');
+        var c = document.getElementById('tab9');
+        var d = document.getElementById('tab10');
+    
+
+        if (c.className === "block b09") {
+        a.className = "block b07"
+        b.className = "block b08"
+        c.className += " active"
+        d.className = "block b12"
+
+        btn7.className = "nav_item";
+        btn8.className = "nav_item";
+        btn9.className += " selected";
+        btn10.className = "nav_item";
+        }
+    }
+
+
+    btn10.onclick = function showTab() {
+        var a = document.getElementById('tab7');
+        var b = document.getElementById('tab8');
+        var c = document.getElementById('tab9');
+        var d = document.getElementById('tab10');
+    
+
+        if (d.className === "block b12") {
+        a.className = "block b07"    
+        b.className = "block b08"
+        c.className = "block b09"
+        d.className += " active"
+
+        btn7.className = "nav_item";
+        btn8.className = "nav_item";
+        btn9.className = "nav_item";
+        btn10.className += " selected";
+        }
+    }
