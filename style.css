@@ -256,8 +256,7 @@ td {
 .button_pult:hover {
     background:#333;
     color: #fff;
-
-    }
+}
 
 #tab7, #tab8, #tab9, #tab10 {
     background: #8d8884;
@@ -323,6 +322,13 @@ td {
         font-size: 15px;
         display: block;
         border-left: 1px solid #919090;
+    }
+
+    .button_pult {
+        display:block; 
+        margin-left: 0px;
+        margin-top: 10px;
+
     }
 
 }
