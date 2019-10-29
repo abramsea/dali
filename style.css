@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    transition: all 0.3s;
 }
 
 @font-face {
@@ -34,6 +35,10 @@ b {
 
 .banner {
     max-width: 100%;
+}
+
+.banner_100 {
+    width: 100%;
 }
 
 .b02 {
@@ -221,6 +226,8 @@ b {
     padding: 20px 50px;
 }
 
+/* next block  */
+
 
 table {
     width: 100%;
@@ -272,6 +279,62 @@ td {
 
 #tab7 img, #tab8 img, #tab9 img, #tab10 img {
     border: 3px solid #77736f;
+}
+
+/* next block  */
+
+.b13 {
+    text-align: center;
+    padding: 50px;
+}
+
+.awards {
+    height: 100px;
+    display: inline-block;
+    padding: 50px;
+}
+
+
+/* next block  */
+
+.footer {
+    background: #000;
+    color: #fff;
+    padding: 100px;
+    text-align: center;
+}
+
+.footer p {
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+    top: -25px;
+}
+
+.logo {
+    width: 120px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.links {
+    margin-top: 30px;
+}
+
+.links a {
+  color: #fff;
+  text-decoration: none;  
+  transition: all 0.2s;
+  padding: 5px 10px;
+  font-size: 20px;
+}
+
+.links a:first-of-type {
+    border-right: 1px solid #f2f2f2;
+}
+
+.links a:hover {
+    color: #00caf0;
 }
 
 
@@ -330,6 +393,33 @@ td {
         margin-top: 10px;
 
     }
+
+    .awards {
+        height: 50px;
+        padding: 20px;
+    }
+    
+
+    .footer {
+        padding: 30px;
+    }
+
+    .links a {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 390px) {
+    .b13 {
+        padding: 40px 20px;
+    }
+
+    .footer {
+        padding: 30px 10px;
+    }
+
+
 
 }
 
