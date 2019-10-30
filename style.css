@@ -377,6 +377,10 @@ td {
     max-width: 100%;
 }
 
+.goods_img:hover {
+    transform: scale(1.2);
+}
+
 .new-price {
     font-weight: bold;
     font-size: 25px;
