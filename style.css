@@ -41,6 +41,10 @@ b {
     width: 100%;
 }
 
+.b01 {
+    line-height: 0;
+}
+
 .b02 {
     padding: 100px;
     background: #ffffff;
